@@ -12,3 +12,4 @@ tools/dataset_converters/pascal_voc_seg.py：用于转换数据格式
 自动生成配置文件后，可用 python tools/train.py work_dirs/mask-rcnn_voc/mask-rcnn_r50_fpn_1x_coco.py --resume继续训练
 测试时使用python tools/test.py work_dirs/mask-rcnn_voc/mask-rcnn_r50_fpn_1x_coco.py work_dirs/mask-rcnn_voc/epoch_12.pth --show-dir work_dirs/mask-rcnn_voc/test_show
 google drive链接上的三个权重文件分别为mask-rcnn和sparse-rcnn目标检测模型与mask-rcnn实例分割模型
+数据集按照报告中要求的方式存放，对应的标注文件已上传到google drive
